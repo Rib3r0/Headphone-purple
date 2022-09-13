@@ -7,7 +7,8 @@ body{
         "main"
         "footer";
     grid-template-rows: 100px 1fr 100px;
-    padding-right: 100px;    
+    padding-right: 100px; 
+    font-family: 'Montserrat', sans-serif;   
 }
 header{
     grid-area: header;
@@ -17,7 +18,11 @@ header{
 }
 main{
     grid-area: main;
-    background-color: lightpink;
+    display: grid;
+    grid-template-areas: 
+        "description product social";
+    grid-template-columns:  380px 1fr 48px;
+    padding-left: 100px;
 }
 footer{
     grid-area: footer;
