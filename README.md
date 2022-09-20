@@ -1,1 +1,2 @@
-# Headphone-purple
+# Headphone Purple Razer Kraken
+
