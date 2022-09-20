@@ -26,5 +26,6 @@ main{
 }
 footer{
     grid-area: footer;
-    background-color: lightskyblue;
+    display: flex;
+    gap: 2px;
 }
